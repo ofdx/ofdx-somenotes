@@ -13,10 +13,6 @@ export default function NoteDesktop(props){
         // TODO - store icon name here?
         label: 'vim'
       }
-    },
-    {
-      widget: 'FakeWidget',
-      desktop: { label: 'Click Me' }
     }
   ]);
 
