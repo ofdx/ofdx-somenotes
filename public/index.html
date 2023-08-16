@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Note/bookmark manager."
+    />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>OFDX SomeNotes&trade;</title>
+  </head>
+  <body>
+    <script>
+      window.ofdx = {
+        authUser: {
+          name: "<?ofdx auth user>"
+        }
+      };
+    </script>
+    <h1>
+      <img
+        class="img_pixelated"
+        src="/floppy-1.png"
+        alt="A high-density floppy disk"
+        title="OFDX"
+      />
+      SomeNotes&trade;
+    </h1>
+    <p>When <i>one note</i> is not enough.</p>
+
+    <noscript>
+      This application requires javascript and your client either does not
+      support it or has it disabled.
+    </noscript>
+
+    <div id="root"></div>
+  </body>
+</html>
