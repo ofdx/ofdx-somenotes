@@ -11,7 +11,7 @@ export default function NoteDesktop(props){
       widget: 'NoteTextEditor',
       desktop: {
         // TODO - store icon name here?
-        label: 'vim'
+        label: 'Text Editor'
       }
     }
   ]);

@@ -8,7 +8,7 @@ export default function NoteAppIcon(props){
       onClick={(e) => { props.onClick?.(e) }}
     >
       <img class="img_pixelated" src={icon} alt="" />
-      <h3>{displayText}</h3>
+      <span>{displayText}</span>
     </div>
   );
 }
