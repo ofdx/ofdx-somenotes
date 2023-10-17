@@ -13,6 +13,12 @@ export default function NoteDesktop(props){
         // TODO - store icon name here?
         label: 'Text Editor'
       }
+    },
+    {
+      widget: 'NotePrefs',
+      desktop: {
+        label: 'Preferences'
+      }
     }
   ]);
 
@@ -45,8 +51,6 @@ export default function NoteDesktop(props){
         {icons}
       </div>
       {apps}
-      <p>Hello, {authUserName}!</p>
-      <p><a href="/aaa/logout/">Logout</a>.</p>
     </div>
   );
 }

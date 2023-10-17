@@ -1,5 +1,6 @@
 import React from 'react';
 import NoteTextEditor from './texted/NoteTextEditor';
+import NotePrefs from './NotePrefs';
 
 // Create a React component using the specified widget name, and pass along the props.
 export default function NoteLauncher(props){
@@ -8,9 +9,10 @@ export default function NoteLauncher(props){
   switch(props.widget){
     case 'NoteTextEditor':
       return ( <NoteTextEditor state={props.state} update={update} /> );
+    case 'NotePrefs':
+      return ( <NotePrefs state={props.state} update={update} /> );
 
-    // Shouldn't happen.
     default:
-      alert('NoteLauncher called for unknown app: ', props.widget);
+      // NOP
   }
 }
