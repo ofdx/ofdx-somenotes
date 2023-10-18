@@ -1,0 +1,44 @@
+/*
+  texted.css
+  mperron (2023)
+
+  Style for SomeNotes Text Editor
+*/
+
+.note_texted {
+  width: 100%;
+}
+
+.note_texted_ctrlbar {
+  height: 1.7em;
+  border: solid 1px black;
+
+  color: #ccc;
+  background-color: #444;
+}
+.note_texted_ctrlbar span {
+  display: inline-block;
+  margin: 0 0.35em;
+  padding: 0.35em;
+  height: 1em;
+}
+.note_texted_ctrlbar span:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  user-select: none;
+  cursor: pointer;
+}
+
+.note_texted_field {
+  width: calc(100% - 2em);
+  height: 768px;
+  margin: 0;
+  padding: 1em;
+
+  border: none;
+  resize: vertical;
+
+  font-size: 150%;
+
+  color: #ccc;
+  background-color: #222;
+}

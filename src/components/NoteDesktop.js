@@ -12,7 +12,8 @@ export default function NoteDesktop(props){
       desktop: {
         // TODO - store icon name here?
         label: 'Text Editor'
-      }
+      },
+      active: true
     },
     {
       widget: 'NotePrefs',
