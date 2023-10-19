@@ -10,7 +10,7 @@ export default function NoteDesktop(props){
     {
       widget: 'NoteTextEditor',
       desktop: {
-        // TODO - store icon name here?
+        icon: '/texted.png',
         label: 'Text Editor'
       },
       active: true
