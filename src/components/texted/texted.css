@@ -30,12 +30,13 @@
 
 .note_texted_field {
   width: calc(100% - 2em);
-  height: 768px;
+  min-height: 768px;
+  resize: vertical;
+
   margin: 0;
   padding: 1em;
 
   border: none;
-  resize: vertical;
 
   font-size: 150%;
   font-family: monospace;

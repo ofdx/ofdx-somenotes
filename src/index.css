@@ -8,6 +8,17 @@ body {
 	margin: 0;
 }
 
+#ofdx_footer {
+  height: 1em;
+  width: 100%;
+
+  margin: 0;
+  padding: 0.5em 1em;
+}
+#ofdx_footer img {
+  max-height: 1em;
+}
+
 .img_pixelated {
 	image-rendering: pixelated;
 }
@@ -17,8 +28,7 @@ body {
 }
 #notes_apptray {
 	background-color: lightblue;
-  border-top: solid 2px darkgrey;
-  border-bottom: solid 2px darkgrey;
+	border-bottom: solid 0.5em rgba(0, 0, 0, 0.1);
 }
 
 .notes_app_icon {
