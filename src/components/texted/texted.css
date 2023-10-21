@@ -36,11 +36,29 @@
   margin: 0;
   padding: 1em;
 
+  border-radius: 0;
   border: none;
+  outline: none;
 
   font-size: 150%;
   font-family: monospace;
 
   color: #ccc;
   background-color: #222;
+}
+
+.note_texted_doc_title {
+  width: calc(100% - 0.4em);
+
+  margin: 0;
+  padding: 0.2em 0.2em;
+
+  border-radius: 0;
+  border: none;
+  outline: none;
+
+  font-size: 200%;
+
+  color: #ddd;
+  background-color: #111;
 }

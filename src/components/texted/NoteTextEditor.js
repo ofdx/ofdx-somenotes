@@ -26,6 +26,12 @@ export default function NoteTextEditor(props){
         <span>About&hellip;</span>
       </div>
 
+      <input
+        className="note_texted_doc_title"
+        placeholder="Untitled"
+        maxLength={128}
+      ></input>
+
       <textarea
         className="note_texted_field"
         onChange={ e => updateTextedFieldValue(e.target.value) }

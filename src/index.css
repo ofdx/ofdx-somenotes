@@ -1,11 +1,11 @@
 /*
-	OFDX SomeNotes
-	mperron (2023)
+  OFDX SomeNotes
+  mperron (2023)
 */
 
 body {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #ofdx_footer {
@@ -21,41 +21,42 @@ body {
 }
 
 .img_pixelated {
-	image-rendering: pixelated;
+  image-rendering: pixelated;
 }
 
 #notes_desktop {
-	min-height: 768px;
+  min-height: 768px;
 }
 #notes_apptray {
-	background-color: lightblue;
-	border-bottom: solid 0.5em rgba(0, 0, 0, 0.1);
+  background-color: lightblue;
+  border-bottom: solid 0.5em rgba(0, 0, 0, 0.1);
+  padding-top: 0.3em;
 }
 
 .notes_app_icon {
   display: inline-block;
 
-	margin: 0 0.5em;
+  margin: 0 0.5em;
   padding: 0.5em 1em;
   height: 48px;
 
   border-radius: 0.7em 0.7em 0 0;
 
-	text-align: center;
-	user-select: none;
+  text-align: center;
+  user-select: none;
 }
 .notes_app_icon img {
-	margin: 0;
-	height: 100%;
+  margin: 0;
+  height: 100%;
 }
 .notes_app_icon span {
   font-size: 175%;
   margin: 0 0 0 0.5em;
 }
 .notes_app_icon_active {
-	background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .notes_app_icon:hover {
-	background-color: rgba(0, 0, 0, 0.2);
-	cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
