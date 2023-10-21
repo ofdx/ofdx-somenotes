@@ -30,11 +30,13 @@ export default function NoteTextEditor(props){
         className="note_texted_doc_title"
         placeholder="Untitled"
         maxLength={128}
+        autoComplete='off'
       ></input>
 
       <textarea
         className="note_texted_field"
         onChange={ e => updateTextedFieldValue(e.target.value) }
+        autoComplete='off'
       >{fieldState}</textarea>
     </div>
   );
