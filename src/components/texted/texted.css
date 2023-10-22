@@ -30,11 +30,11 @@
 
 .note_texted_field {
   width: calc(100% - 2em);
-  min-height: 768px;
+  min-height: 368px;
   resize: vertical;
 
   margin: 0;
-  padding: 1em;
+  padding: 1em 1em 400px 1em;
 
   border-radius: 0;
   border: none;
