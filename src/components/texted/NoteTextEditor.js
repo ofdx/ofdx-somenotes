@@ -14,16 +14,43 @@ export default function NoteTextEditor(props){
     setFieldState(value);
   }
 
+  const [menubarState, updateMenubarState] = React.useState([
+    {
+      // Open a menu with other applications and preferences.
+      label: 'OFDX',
+      icon: '/texted.png'
+    },
+    {
+      // Open a dialog to create a new/empty note, or load from one saved on the server.
+      label: 'Notes…'
+    },
+    {
+      // Open a dialog with info about this application and the currently open file.
+      label: 'About…'
+    }
+  ]);
+
+  const menuPick = (what) => updateMenubarState(menubarState.map(el => ({ ...el, active: ((el === what) && !el.active) })));
+
+  const menuItems = menubarState
+    .map((el) => (
+      <span
+        className={"pick" + (el.active ? " active" : "")}
+        onClick={() => menuPick(el)}
+      >
+        <img
+          className={"img_pixelated" + (el.icon ? "" : " hidden")}
+          src={el.icon}
+        />
+        {el.label}
+      </span>
+    ));
+
+
   return (
     <div className="note_texted">
       <div className="note_texted_ctrlbar">
-        {/* This is the UI for the text editor. It should allow you to do things
-        like save to a file on the server, load a file, etc. */}
-
-        <span>FIXME</span>
-        <span>Load&hellip;</span>
-        <span>Save&hellip;</span>
-        <span>About&hellip;</span>
+        {menuItems}
       </div>
 
       <input

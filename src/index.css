@@ -31,6 +31,9 @@ body {
   background-color: lightblue;
   border-bottom: solid 0.5em rgba(0, 0, 0, 0.1);
   padding-top: 0.3em;
+
+  /* FIXME - disable while reworking */
+  display: none;
 }
 
 .notes_app_icon {
