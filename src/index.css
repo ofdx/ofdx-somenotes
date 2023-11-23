@@ -25,7 +25,7 @@ body {
 }
 
 #notes_desktop {
-  min-height: 768px;
+  min-height: 300px;
 }
 #notes_apptray {
   background-color: lightblue;
