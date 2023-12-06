@@ -49,7 +49,7 @@ body {
 
 .note_texted_field {
   width: calc(100% - 2em);
-  min-height: calc(100svh - 400px - 5.8em);
+  min-height: calc(100svh - 400px - 5.6em);
   resize: vertical;
 
   margin: 0;
