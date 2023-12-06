@@ -8,18 +8,6 @@ body {
   margin: 0;
 }
 
-#ofdx_footer {
-  height: 1em;
-
-  margin: 0;
-  padding: 0.5em 1em;
-
-  text-align: center;
-}
-#ofdx_footer img {
-  max-height: 1em;
-}
-
 .img_pixelated {
   image-rendering: pixelated;
 }

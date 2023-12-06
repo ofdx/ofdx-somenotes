@@ -5,6 +5,10 @@
   Style for SomeNotes Text Editor
 */
 
+body {
+  background-color: #111;
+}
+
 .note_texted {
   width: 100%;
 }
@@ -45,7 +49,7 @@
 
 .note_texted_field {
   width: calc(100% - 2em);
-  min-height: calc(100svh - 400px - 7.5em);
+  min-height: calc(100svh - 400px - 5.8em);
   resize: vertical;
 
   margin: 0;
