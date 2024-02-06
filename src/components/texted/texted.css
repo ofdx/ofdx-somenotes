@@ -50,7 +50,7 @@ body {
 .note_texted_field {
   width: calc(100% - 2em);
   min-height: calc(100svh - 400px - 5.6em);
-  resize: vertical;
+  resize: none;
 
   margin: 0;
   padding: 1em 1em 400px 1em;
@@ -67,10 +67,10 @@ body {
 }
 
 .note_texted_doc_title {
-  width: calc(100% - 0.4em);
+  width: calc(100% - 1em);
 
   margin: 0;
-  padding: 0.2em 0.2em;
+  padding: 0.2em 0.5em;
 
   border-radius: 0;
   border: none;

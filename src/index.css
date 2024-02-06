@@ -12,8 +12,15 @@ body {
   image-rendering: pixelated;
 }
 
+#root {
+  width: 100%;
+  width: 100vw;
+  width: 100svw;
+}
+
 #notes_desktop {
   min-height: 300px;
+  width: 100%;
 }
 #notes_apptray {
   background-color: lightblue;
